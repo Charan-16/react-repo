@@ -1,0 +1,24 @@
+/* src/App.css */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #007bff;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffeb3b;
+}
+
+.App {
+  text-align: center;
+}
